@@ -31,6 +31,8 @@ _nsmap = {
     "wne": "http://schemas.microsoft.com/office/word/2006/wordml",
     "wp": "http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing",
     "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    # YH add
+    "dsp": "http://schemas.microsoft.com/office/drawing/2008/diagram",
 }
 
 pfxmap = {value: key for key, value in _nsmap.items()}
