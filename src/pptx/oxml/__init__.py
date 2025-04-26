@@ -479,6 +479,8 @@ register_element_cls("a:spcPts", CT_TextSpacingPoint)
 register_element_cls("a:txBody", CT_TextBody)
 register_element_cls("c:txPr", CT_TextBody)
 register_element_cls("p:txBody", CT_TextBody)
+# YH add
+register_element_cls("dsp:txBody", CT_TextBody)
 
 
 from pptx.oxml.theme import CT_OfficeStyleSheet  # noqa: E402
